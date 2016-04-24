@@ -1,16 +1,24 @@
-Full-stack Meteor crud app built with the help of this tutorial:
-https://www.youtube.com/watch?v=pkwg1hx0P2I
+## Full-stack Meteor crud app built with the help of this tutorial:
+  https://www.youtube.com/watch?v=pkwg1hx0P2I
 
-To install Meteor.js run the command:
+## To install Meteor.js run the command:
+
+```
 curl https://install.meteor.com/ | sh
+```
 
-To run the app:
+## To run the app:
+```
 meteor
+```
 
-To run test: (I was not able to get tests working for this assignment)
+## To run test: (I was not able to get tests working for this assignment)
+
+```
 meteor test --driver-package=practicalmeteor:mocha
+```
 
-My comparison to Angular:
+## My comparison to Angular:
   Meteor is very fast! It was cool to run the "meteor" command which starts the server mongodb and builds and starts your app on localhost:3000.
 
   When you create a new project it includes template files to get you started quickly which is really cool.
