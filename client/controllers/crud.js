@@ -13,15 +13,10 @@ Template.home.events({
     }else{
       Meteor.call('insertData', obj); //calls method from server to insert
     }
-    //alert('insert success');
   },
   'click #remove':function(e){
     crud.remove(this._id);//remove data from mongodb
-  },
-  // 'click #cancel':function(e){
-  //   title = '';
-  //   description = '';
-  // }
+  }
 });
 Template.home.helpers({
   //get data from mongodb
